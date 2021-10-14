@@ -84,3 +84,63 @@ nav ul li a {
   html.is-animating .transition-fade {
     opacity: 0;
   }
+
+/* social media icon stuff */
+  .icons ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.icons ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.icons ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.icons ul li .fab {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.icons ul li .fa:hover {
+    color: #ffffff;
+}
+.icons ul li .fab:hover {
+    color: #ffffff;
+}
+.icons ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.icons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.icons ul li:nth-child(1) a:hover {
+    background-color: #55acee;
+}
+.icons ul li:nth-child(2) a:hover {
+    background-color: #df2020;
+}
+.icons ul li:nth-child(3) a:hover {
+    background-color: #23272A;
+}
+.icons ul li:nth-child(4) a:hover {
+    background-color: #6518ad;
+}
