@@ -144,3 +144,8 @@ nav ul li a {
 .icons ul li:nth-child(4) a:hover {
     background-color: #6518ad;
 }
+
+.tkimage:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    transition: 0.5s
+}
