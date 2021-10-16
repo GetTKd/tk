@@ -30,12 +30,22 @@
     }
 }
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('assets/proxima.ttf'); /* IE9 Compat Modes */
+    src: url('assets/proxima.ttf') format('woff'), /* Browsers */
+         url('assets/proxima.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
 
-/* template for navigation */
+/* navigation */
 .menu {
     text-align:right;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Proxima Nova';
 }
+
+.menu li a {
+    text-decoration: none;
+ }
 
 .logo {
     line-height: 60px;
@@ -64,7 +74,6 @@ nav ul {
     text-align: right;
     margin: 0;
     padding-right: 40px;
-    transition: 1s;
 }
 
 nav ul li {
