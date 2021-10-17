@@ -30,6 +30,18 @@
     }
 }
 
+@keyframes aboutAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(-5vh);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
 @font-face {
     font-family: 'Proxima Nova';
     src: url('assets/proxima.ttf'); /* IE9 Compat Modes */
@@ -177,4 +189,14 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, 0%);
     color:#fff
+}
+
+.aboutMe {
+    font-family: 'Proxima Nova';
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    bottom: 20%;
+    margin: 18%;
+    animation: aboutAnimation 3s
 }
