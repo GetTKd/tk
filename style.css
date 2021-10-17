@@ -196,7 +196,7 @@ nav ul li a {
     position: absolute;
     color:#fff;
     text-align: center;
-    bottom: 20%;
+    top: -20%;
     margin: 18%;
     animation: aboutAnimation 3s
 }
